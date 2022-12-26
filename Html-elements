@@ -1,0 +1,27 @@
+<html>
+  <title>Title (name on tab)</title>
+
+  <h1>Headings (h1-h6)</h1>
+  <p>paragraph</p>
+  <body></body>
+  <main></main>
+  <section></section>
+  <div></div>
+
+  Horisontal Line
+  <hr />
+  Line Break
+  <br />
+
+  Unordered List
+  <ul>
+    <li>List Item</li>
+    <li>List Item</li>
+  </ul>
+
+  Ordered List
+  <ol>
+    <li>List Item</li>
+    <li>List Item</li>
+  </ol>
+</html>
