@@ -23,4 +23,17 @@
     <li>List Item</li>
     <li>List Item</li>
   </ol>
+
+  Image
+  <img src="https://imagelinkname.com"
+  alt="enter description for screen readers">
+
+  Links
+  <a target="_blank" href="https://linktarget.com">Text or image you want to turn into link here.</a>
+
+  Image with link
+  <a target="_blank" href="https://linktarget.com">
+    <img src="https://imagelinkname"
+    alt="description for screen reader">
+  </a>
 </html>
