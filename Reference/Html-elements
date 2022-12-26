@@ -7,11 +7,10 @@
   <main></main>
   <section></section>
   <div></div>
+  <span></span>
 
-  Horisontal Line
-  <hr />
-  Line Break
-  <br />
+  Horizontal Line <hr />
+  Line Break<br />Line Break
 
   Unordered List
   <ul>
