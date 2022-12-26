@@ -1,0 +1,1 @@
+This is just a package of projects that I will be keeping while learning web development. The purposes of this is to help learn and understand the utility of github while I am learning to code opposed to leaving it to the end. Package will remain private.
