@@ -50,7 +50,7 @@
             src="https://arcaneeye.com/wp-content/uploads/2020/12/ezgif-6-45792cf8941d.jpg"
             alt="hand drawn map" />
         </a>
-        <figure>Get creative with map displays and layouts</figure>
+        <figcaption>Get creative with map displays and layouts</figcaption>
       </figure>
     </section>
     <!--LIST ON HOW TO GET MAPS-->
@@ -139,8 +139,19 @@
         <legend>Type - Select all that apply</legend>
         <input type="checkbox" name="type" id="overworld" value="overworld" />
         <label for="city">Overworld</label>
-        <input type="checkbox" />
+        <input type="checkbox" name="type" id="city" value="city" />
+        <label for="city">City</label>
+        <input type="checkbox" name="type" id="house" value="house" />
+        <label for="house">House</label>
+        <input type="checkbox" name="type" id="dungeon" value="dungeon" />
+        <label for="dungeon">Dungeon</label>
+        <input type="checkbox" name="type" id="boss" value="boss" />
+        <label for="boss">Boss</label>
+        <input type="checkbox" name="type" id="travel" value="travel" />
+        <label for="travel">Travel</label>
       </fieldset>
+      <button type="submit">Submit</button>
+      <input type="text" name="name" placeholder="Character Name" required />
     </section>
     <footer>
       <hr />
