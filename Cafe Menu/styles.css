@@ -3,6 +3,14 @@ h2,
 p {
   text-align: center;
 }
-body {
+
+/* body {
+  background: burlywood;
+} */
+
+div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
   background: burlywood;
 }
