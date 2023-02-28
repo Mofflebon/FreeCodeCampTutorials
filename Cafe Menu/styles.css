@@ -4,11 +4,11 @@ p {
   text-align: center;
 }
 
-/* body {
-  background: burlywood;
-} */
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
 
-div {
+.menu {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
