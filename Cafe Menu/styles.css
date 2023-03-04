@@ -17,6 +17,7 @@ h2 {
 
 h1 {
   font-size: 40px;
+  margin-top: 0px;
 }
 
 h2 {
@@ -29,10 +30,28 @@ hr {
   height: 2px;
 }
 
+/*LINKS*/
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
+
 .item p {
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 5px;
+  font-size: 18px;
 }
 
 .menu {
@@ -57,4 +76,13 @@ hr {
 
 .established {
   font-style: italic;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+/*FOOTER*/
+footer {
+  font-size: 14px;
 }
