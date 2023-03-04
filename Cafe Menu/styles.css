@@ -11,10 +11,13 @@ body {
 .menu {
   margin-left: auto;
   margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
   width: 80%;
   background: burlywood;
 }
 
+.dessert,
 .flavor {
   width: 75%;
   text-align: left;
