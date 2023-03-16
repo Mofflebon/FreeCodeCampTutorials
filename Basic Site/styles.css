@@ -39,6 +39,13 @@ ul {
   font-weight: bold;
 }
 
+.account-creation {
+  display: block;
+}
+
+.formbg {
+  background-color: rgb(26, 26, 26);
+}
 /*LINKS*/
 a {
   color: red;
