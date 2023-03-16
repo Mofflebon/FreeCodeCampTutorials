@@ -83,63 +83,77 @@
           </figcaption>
         </figure>
         <!--FORM-->
-        <hr />
-        <section>
-          <h2>Map Requests</h2>
-          <form action="https://designbite.weebly.com/submit-map-photo"></form>
-          <fieldset>
-            <legend>Dungeons & Dragons edition</legend>
-            <input type="radio" name="edition" id="1e" value="1e" checked />
-            <label for="1e">1e</label>
-            <input type="radio" name="edition" id="2e" value="2e" />
-            <label for="2e">2e</label>
-            <input type="radio" name="edition" id="3e" value="3e" />
-            <label for="3e">3e</label>
-            <input type="radio" name="edition" id="4e" value="4e" />
-            <label for="4e">4e</label>
-            <input type="radio" name="edition" id="5e" value="5e" />
-            <label for="5e">5e</label>
-          </fieldset>
-          <fieldset>
-            <legend>Saturation</legend>
-            <input type="radio" name="saturation" id="black" value="black" checked />
-            <label for="black">Black & White</label>
-            <input type="radio" name="saturation" id="color" value="color" />
-            <label for="color">Color</label>
-          </fieldset>
-          <fieldset>
-            <legend>Map Size</legend>
-            <input type="radio" name="size" id="small" value="small" checked />
-            <label for="small">Small</label>
-            <input type="radio" name="size" id="medum" value="medium" />
-            <label for="medium">Medium</label>
-            <input type="radio" name="size" id="large" value="large" />
-            <label for="large">Large</label>
-            <input type="radio" name="size" id="Jumbo" value="Jumbo" />
-            <label for="jumbo">Jumbo</label>
-          </fieldset>
-          <fieldset>
-            <legend>Type - Select all that apply</legend>
-            <input type="checkbox" name="type" id="overworld" value="overworld" />
-            <label for="city">Overworld</label>
-            <input type="checkbox" name="type" id="city" value="city" />
-            <label for="city">City</label>
-            <input type="checkbox" name="type" id="house" value="house" />
-            <label for="house">House</label>
-            <input type="checkbox" name="type" id="dungeon" value="dungeon" />
-            <label for="dungeon">Dungeon</label>
-            <input type="checkbox" name="type" id="boss" value="boss" />
-            <label for="boss">Boss</label>
-            <input type="checkbox" name="type" id="travel" value="travel" />
-            <label for="travel">Travel</label>
-          </fieldset>
-          <!-- SUBMIT BUTTON-->
-          <button type="submit">Submit</button>
-          <input type="text" name="name" placeholder="Character Name" required />
-        </section>
+        <div class="formbg">
+          <section>
+            <hr />
+            <h2>Map Requests</h2>
+            <form action="https://designbite.weebly.com/submit-map-photo"></form>
+            <fieldset>
+              <legend>Dungeons & Dragons edition</legend>
+              <input type="radio" name="edition" id="1e" value="1e" checked />
+              <label for="1e">1e</label>
+              <input type="radio" name="edition" id="2e" value="2e" />
+              <label for="2e">2e</label>
+              <input type="radio" name="edition" id="3e" value="3e" />
+              <label for="3e">3e</label>
+              <input type="radio" name="edition" id="4e" value="4e" />
+              <label for="4e">4e</label>
+              <input type="radio" name="edition" id="5e" value="5e" />
+              <label for="5e">5e</label>
+            </fieldset>
+            <fieldset>
+              <legend>Saturation</legend>
+              <input type="radio" name="saturation" id="black" value="black" checked />
+              <label for="black">Black & White</label>
+              <input type="radio" name="saturation" id="color" value="color" />
+              <label for="color">Color</label>
+            </fieldset>
+            <fieldset>
+              <legend>Map Size</legend>
+              <input type="radio" name="size" id="small" value="small" checked />
+              <label for="small">Small</label>
+              <input type="radio" name="size" id="medum" value="medium" />
+              <label for="medium">Medium</label>
+              <input type="radio" name="size" id="large" value="large" />
+              <label for="large">Large</label>
+              <input type="radio" name="size" id="Jumbo" value="Jumbo" />
+              <label for="jumbo">Jumbo</label>
+            </fieldset>
+            <fieldset>
+              <legend>Type - Select all that apply</legend>
+              <input type="checkbox" name="type" id="overworld" value="overworld" />
+              <label for="city">Overworld</label>
+              <input type="checkbox" name="type" id="city" value="city" />
+              <label for="city">City</label>
+              <input type="checkbox" name="type" id="house" value="house" />
+              <label for="house">House</label>
+              <input type="checkbox" name="type" id="dungeon" value="dungeon" />
+              <label for="dungeon">Dungeon</label>
+              <input type="checkbox" name="type" id="boss" value="boss" />
+              <label for="boss">Boss</label>
+              <input type="checkbox" name="type" id="travel" value="travel" />
+              <label for="travel">Travel</label>
+            </fieldset>
+            <!-- SUBMIT BUTTON-->
+            <button type="submit">Submit</button>
+            <input type="text" name="name" placeholder="Character Name" required />
+          </section>
+          <!-- ACCOUNT CREATION -->
+          <section>
+            <hr />
+            <h2>Account</h2>
+            <p>Create an account to sign up for future map releases plus priority cue in map requests</p>
+            <fieldset>
+              <label class="account-creation" for="user-name">User Name <input id="user-name" type="text" required /></label>
+              <label class="account-creation" for="email">Email <input id="email" type="email" required /></label>
+              <label class="account-creation" for="password">Password <input id="password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+              <label for="newsletter">Tick to sign up for newsletter <input type="checkbox" id="newsletter" required /></label>
+            </fieldset>
+            <hr />
+          </section>
+        </div>
         <!--FOOTER-->
         <footer>
-          <hr />
           <p>
             No Copyright -
             <a target="_blank" href="https://designbite.weebly.com/">Design Bite</a>
