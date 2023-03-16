@@ -53,7 +53,7 @@ body {
 }
 
 hr {
-  height: 5px;
+  height: 3px;
   background-color: red;
   border-color: red;
   border-width: 1px;
@@ -78,6 +78,7 @@ ul {
   height: 80px;
   padding-top: 10px;
   padding-bottom: 45px;
+  border: 1px solid #f5f6f7;
 }
 
 .subtext {
@@ -88,15 +89,31 @@ ul {
   display: block;
 }
 
+.maprequest {
+  display: block;
+}
+
 .formbg {
   background-color: rgb(26, 26, 26);
+}
+
+.footerbg {
+  background-color: rgb(26, 26, 26);
+  border: 1px solid #f5f6f7;
+  margin-top: 15px;
 }
 
 .captionbg {
   background-color: rgb(26, 26, 26);
   margin: auto;
-  width: 615px;
+  width: 610px;
   margin-top: -10px;
+}
+
+.underline0 {
+  height: 3px;
+  color: red;
+  margin-top: -px;
 }
 
 .underline {
@@ -113,7 +130,7 @@ ul {
 
 .underline3 {
   height: 1px;
-  margin-top: -35px;
+  margin-top: -33px;
   width: 400px;
 }
 /*LINKS*/
@@ -122,7 +139,7 @@ a {
 }
 
 a:hover {
-  color: rgb(212, 135, 135);
+  color: white;
 }
 
 a:active {
