@@ -12,6 +12,7 @@ h1 {
   font-weight: bold;
   text-align: center;
   margin-top: 10px;
+  font-size: 5ch;
 }
 
 figcaption {
@@ -66,9 +67,17 @@ ul {
   font-weight: bold;
 }
 
+.hub {
+  background-color: red;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
 .title {
   background-color: rgb(26, 26, 26);
   height: 80px;
+  padding-top: 10px;
+  padding-bottom: 45px;
 }
 
 .subtext {
@@ -104,8 +113,8 @@ ul {
 
 .underline3 {
   height: 1px;
-  margin-top: -25px;
-  width: 200px;
+  margin-top: -35px;
+  width: 400px;
 }
 /*LINKS*/
 a {
