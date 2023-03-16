@@ -1,9 +1,17 @@
-h1,
 p {
   padding: 5px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
+  margin-top: 10px;
+}
+
+h1 {
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
 }
 
 figcaption {
@@ -34,6 +42,8 @@ h3 {
 img {
   display: block;
   margin: auto;
+  width: 600px;
+  height: 600px;
 }
 
 body {
@@ -56,12 +66,28 @@ ul {
   font-weight: bold;
 }
 
+.title {
+  background-color: rgb(26, 26, 26);
+  height: 80px;
+}
+
+.subtext {
+  margin-top: -10px;
+}
+
 .account-creation {
   display: block;
 }
 
 .formbg {
   background-color: rgb(26, 26, 26);
+}
+
+.captionbg {
+  background-color: rgb(26, 26, 26);
+  margin: auto;
+  width: 615px;
+  margin-top: -10px;
 }
 
 .underline {
@@ -75,13 +101,19 @@ ul {
   width: 40%;
   color: red;
 }
+
+.underline3 {
+  height: 1px;
+  margin-top: -25px;
+  width: 200px;
+}
 /*LINKS*/
 a {
   color: red;
 }
 
 a:hover {
-  color: grey;
+  color: rgb(212, 135, 135);
 }
 
 a:active {
