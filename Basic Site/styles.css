@@ -20,7 +20,8 @@ img {
 }
 
 body {
-  background-image: url(https://thumbs.dreamstime.com/b/honeycomb-grid-tile-random-background-hexagonal-cell-texture-color-gray-grey-difference-border-space-vignette-dark-164788343.jpg);
+  background-color: #1b1b32;
+  color: #f5f6f7;
 }
 
 hr {
@@ -49,10 +50,6 @@ a:hover {
 
 a:active {
   color: white;
-}
-
-.background {
-  background-color: white;
 }
 
 /*FOOTER*/
