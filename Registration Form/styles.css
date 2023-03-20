@@ -18,6 +18,7 @@ form {
   max-width: 500px;
   min-width: 300px;
   width: 60vw;
+  padding-bottom: 2em;
 }
 
 fieldset {
@@ -29,6 +30,10 @@ fieldset {
   padding-right: 0;
 }
 
+a {
+  color: #dfdfe2;
+}
+
 fieldset:last-of-type {
   border-bottom: none;
 }
@@ -37,4 +42,43 @@ h1,
 p {
   margin: 1em auto;
   text-align: center;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  min-height: 2em;
+}
+
+input,
+textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  min-width: 300px;
+  margin: 1em auto 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0 0.5em 0;
+  vertical-align: middle;
 }
