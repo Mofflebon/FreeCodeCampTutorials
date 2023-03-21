@@ -82,3 +82,9 @@ input[type="file"] {
   margin: 0 0 0.5em 0;
   vertical-align: middle;
 }
+
+.form {
+  background-color: #da0037;
+  padding: 0 5px;
+  border-radius: 5px;
+}
