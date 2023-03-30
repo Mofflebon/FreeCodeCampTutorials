@@ -34,6 +34,7 @@ label {
 }
 
 h1 {
+  margin: 1em auto;
   text-align: center;
 }
 
@@ -78,12 +79,12 @@ input[type="submit"] {
   padding-bottom: 2em;
   position: absolute;
   left: 50%;
-  top: 20px; /* Add top spacing */
+  top: 40px; /* Add top spacing */
   transform: translate(-50%, 0);
 }
 
 .hub {
-  background-color: red;
+  background-color: #da0037;
   padding: 0 5px;
   border-radius: 5px;
 }
