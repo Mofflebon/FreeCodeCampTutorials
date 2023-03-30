@@ -1,7 +1,7 @@
 body {
   font-family: Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
-  background-color: #171717;
+  background-color: #3f3f3f;
   color: #f5f6f7;
   margin: 0;
   width: 100%;
@@ -15,17 +15,17 @@ label {
 
 form {
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 600px;
   min-width: 300px;
-  width: 60vw;
+  width: 80vw;
   padding-bottom: 2em;
 }
 
 fieldset {
   border: 0;
   border-bottom: 3px solid #da0037;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   padding-left: 0;
   padding-right: 0;
 }
@@ -69,8 +69,7 @@ input[type="submit"] {
   margin: 1em auto 1em auto;
   height: 2em;
   font-size: 1.1rem;
-  background-color: #444444;
-  border-color: #da0037;
+  background-color: #da0037;
 }
 
 input[type="file"] {
@@ -87,4 +86,16 @@ input[type="file"] {
   background-color: #da0037;
   padding: 0 5px;
   border-radius: 5px;
+}
+
+.background {
+  background-color: #171717;
+  margin: auto;
+  padding: 2em 2em 2em 2em;
+  width: 80vw;
+  padding-bottom: 2em;
+  position: absolute;
+  left: 50%;
+  top: 40px; /* Add top spacing */
+  transform: translate(-50%, 0);
 }
