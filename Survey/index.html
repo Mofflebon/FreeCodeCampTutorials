@@ -6,48 +6,52 @@
     <title>Survey</title>
   </head>
   <body>
-    <h1 id="title">MAP<span class="hub">HUB</span> Survey Form</h1>
-    <p id="description">Thank you for reviewing the HUB</p>
-    <form id="survey-form">
+    <div class="background">
       <fieldset>
-        <label id="name-label" for="name">Name <input type="text" name="name" id="name" placeholder="Enter your name" required /></label>
-        <label id="email-label" for="email">Email <input type="email" name="email" id="email" placeholder="Enter your email" required /> </label>
-        <label id="number-label" for="playtime">Years playing D&D <input type="number" min="1" max="49" name="playtime" id="number" placeholder="years" required /> </label>
-        <label for="dropdown">
-          What role do you like to play?
-          <select name="role" id="dropdown">
-            <option value="">Select an option</option>
-            <option value="1">Dungeon Master</option>
-            <option value="2">Player</option>
-          </select>
-        </label>
+        <h1 id="title">MAP<span class="hub">HUB</span> Survey Form</h1>
+        <p id="description">Thank you for reviewing the HUB</p>
       </fieldset>
-      <fieldset>
-        <label for="">Would you recommend MapHUB to your group?</label>
-        <label for="yes">Yes <input type="radio" name="recommend" id="yes" value="yes" /></label>
-        <label for="no">No <input type="radio" name="recommend" id="no" value="no" /></label>
-        <label for="maybe">Maybe <input type="radio" name="recommend" id="maybe" value="maybe" /> </label>
-      </fieldset>
-      <fieldset>
-        <label for="dropdown2">
-          What is your favorite feature of the HUB
-          <select name="feature" id="dropdown2">
-            <option value="">Select an option</option>
-            <option value="1">Map gallery</option>
-            <option value="2">Following creators</option>
-            <option value="3">Map requests</option>
-          </select>
-        </label>
-        <label for="feedback">What are features you would like to see added first?</label>
-        <label for="ai"><input type="checkbox" name="feedback" value="ai" /> Ai map generation</label>
-        <label for="random"><input type="checkbox" name="feedback" value="random" /> Map shuffle</label>
-        <label for="verified"><input type="checkbox" name="feedback" value="verified" /> Verified user system</label>
-        <label for="player"><input type="checkbox" name="feedback" value="player" /> Player character cards</label>
-      </fieldset>
-      <fieldset>
-        <label for="suggestions">Any comments or suggestions? <textarea name="suggestions" id="suggestions" cols="30" rows="3"></textarea></label>
-        <input type="submit" name="submit" id="submit" value="submit" />
-      </fieldset>
-    </form>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label" for="name">Name <input type="text" name="name" id="name" placeholder="Enter your name" required /></label>
+          <label id="email-label" for="email">Email <input type="email" name="email" id="email" placeholder="Enter your email" required /> </label>
+          <label id="number-label" for="playtime">Years playing D&D <input type="number" min="1" max="49" name="playtime" id="number" placeholder="years" required /> </label>
+          <label for="dropdown">
+            What role do you like to play?
+            <select name="role" id="dropdown">
+              <option value="">Select an option</option>
+              <option value="1">Dungeon Master</option>
+              <option value="2">Player</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label for="">Would you recommend MapHUB to your group?</label>
+          <label for="yes">Yes <input type="radio" name="recommend" id="yes" value="yes" /></label>
+          <label for="no">No <input type="radio" name="recommend" id="no" value="no" /></label>
+          <label for="maybe">Maybe <input type="radio" name="recommend" id="maybe" value="maybe" /> </label>
+        </fieldset>
+        <fieldset>
+          <label for="dropdown2">
+            What is your favorite feature of the HUB
+            <select name="feature" id="dropdown2">
+              <option value="">Select an option</option>
+              <option value="1">Map gallery</option>
+              <option value="2">Following creators</option>
+              <option value="3">Map requests</option>
+            </select>
+          </label>
+          <label for="feedback">What are features you would like to see added first?</label>
+          <label for="ai"><input type="checkbox" name="feedback" value="ai" /> Ai map generation</label>
+          <label for="random"><input type="checkbox" name="feedback" value="random" /> Map shuffle</label>
+          <label for="verified"><input type="checkbox" name="feedback" value="verified" /> Verified user system</label>
+          <label for="player"><input type="checkbox" name="feedback" value="player" /> Player character cards</label>
+        </fieldset>
+        <fieldset>
+          <label for="suggestions">Any comments or suggestions? <textarea name="suggestions" id="suggestions" cols="30" rows="3"></textarea></label>
+          <input type="submit" name="submit" id="submit" value="submit" />
+        </fieldset>
+      </form>
+    </div>
   </body>
 </html>
