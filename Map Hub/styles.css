@@ -131,7 +131,7 @@ input[type="submit"] {
 }
 
 .subtext {
-  margin-top: -10px;
+  margin-top: -40px;
 }
 
 .account-creation {
@@ -198,4 +198,26 @@ a:active {
 /*FOOTER*/
 footer {
   font-size: 14px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+}
+
+.button {
+  background-color: #da0037;
+  border: none;
+  color: #f5f6f7;
+  padding: 5px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 10px; /* Add some space between buttons */
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0062cc;
 }
