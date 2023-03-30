@@ -6,7 +6,7 @@
     <title>Survey</title>
   </head>
   <body>
-    <h1 id="title">MapHUB Survey Form</h1>
+    <h1 id="title">MAP<span class="hub">HUB</span> Survey Form</h1>
     <p id="description">Thank you for reviewing the HUB</p>
     <form id="survey-form">
       <fieldset>
@@ -21,10 +21,14 @@
             <option value="2">Player</option>
           </select>
         </label>
+      </fieldset>
+      <fieldset>
         <label for="">Would you recommend MapHUB to your group?</label>
         <label for="yes">Yes <input type="radio" name="recommend" id="yes" value="yes" /></label>
         <label for="no">No <input type="radio" name="recommend" id="no" value="no" /></label>
         <label for="maybe">Maybe <input type="radio" name="recommend" id="maybe" value="maybe" /> </label>
+      </fieldset>
+      <fieldset>
         <label for="dropdown2">
           What is your favorite feature of the HUB
           <select name="feature" id="dropdown2">
@@ -39,6 +43,8 @@
         <label for="random"><input type="checkbox" name="feedback" value="random" /> Map shuffle</label>
         <label for="verified"><input type="checkbox" name="feedback" value="verified" /> Verified user system</label>
         <label for="player"><input type="checkbox" name="feedback" value="player" /> Player character cards</label>
+      </fieldset>
+      <fieldset>
         <label for="suggestions">Any comments or suggestions? <textarea name="suggestions" id="suggestions" cols="30" rows="3"></textarea></label>
         <input type="submit" name="submit" id="submit" value="submit" />
       </fieldset>

@@ -1,4 +1,46 @@
 body {
-  background-color: #1b1b32;
-  color: white;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: #171717;
+  color: #f5f6f7;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+  padding-bottom: 2em;
+}
+fieldset {
+  border: 0;
+  border-bottom: 3px solid #da0037;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+label {
+  display: block;
+  margin: 1em auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 4em 0 0 0;
+}
+
+p {
+  text-align: center;
+  margin: 5px auto 1em auto;
+}
+
+.hub {
+  background-color: red;
+  padding: 0 5px;
+  border-radius: 5px;
 }
