@@ -1,7 +1,7 @@
 body {
   font-family: Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
-  background-color: #171717;
+  background-color: #3f3f3f;
   color: #f5f6f7;
   margin: 0;
   width: 100%;
@@ -31,12 +31,25 @@ label {
 
 h1 {
   text-align: center;
-  margin: 4em 0 0 0;
 }
 
 p {
   text-align: center;
   margin: 5px auto 1em auto;
+}
+
+.background {
+  background-color: #171717;
+  margin: auto;
+  padding: 0em 2em 2em 2em;
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+  padding-bottom: 2em;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .hub {
