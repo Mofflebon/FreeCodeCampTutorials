@@ -1,0 +1,27 @@
+body {
+  background-color: #171717;
+  color: #f5f6f7;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5ch;
+}
+
+p {
+  font-weight: bold;
+}
+
+.hub {
+  background-color: #da0037;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.details {
+  background-color: #444444;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
