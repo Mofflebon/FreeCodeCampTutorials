@@ -12,11 +12,23 @@ h1 {
 
 p {
   font-weight: bold;
-  padding-bottom: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  min-width: 300px;
+  width: 80vw;
+  padding-bottom: 2em;
 }
 
 hr {
   border: 2px solid #da0037;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 600px;
+  min-width: 300px;
+  width: 80vw;
+  padding-bottom: 2em;
 }
 
 legend {
@@ -76,7 +88,7 @@ input[type="text"] {
 .background {
   background-color: #171717;
   margin: auto;
-  padding: 1em 2em 2em 2em;
+  padding: 2em 2em 2em 2em;
   width: 80vw;
   padding-bottom: 2em;
   position: absolute;
