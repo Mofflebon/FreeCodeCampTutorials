@@ -13,63 +13,65 @@
         Fill out the form to provide us with enough information to have a map created for you. Be sure to include your character name and email to ensure the map makes its way to
         you. There is also an option you can choose to enable to automatically add the created map to your hub profile
       </p>
-      <fieldset>
-        <label class="text-label" for="character-name">Character Name</label>
-        <input type="text" id="character-name" name="name" required />
-        <label class="text-label" for="email">Email</label>
-        <input type="email" id="email" name="email" required />
-      </fieldset>
-      <hr />
-      <fieldset>
-        <legend>D&D Edition</legend>
-        <input class="inline" type="radio" name="edition" id="1e" value="1e" />
-        <label class="inline" for="1e">1E</label>
-        <input class="inline" type="radio" name="edition" id="1e" value="2e" />
-        <label class="inline" for="2e">2E</label>
-        <input class="inline" type="radio" name="edition" id="3e" value="3e" />
-        <label class="inline" for="3e">3E</label>
-        <input class="inline" type="radio" name="edition" id="4e" value="4e" />
-        <label class="inline" for="4e">4E</label>
-        <input class="inline" type="radio" name="edition" id="5e" value="5e" />
-        <label class="inline" for="5e">5E</label>
-      </fieldset>
-      <fieldset>
-        <legend>Saturation</legend>
-        <input class="inline" type="radio" name="saturation" id="black" value="black" />
-        <label class="inline" for="black">Black</label>
-        <input class="inline" type="radio" name="saturation" id="white" value="white" />
-        <label class="inline" for="white">White</label>
-      </fieldset>
-      <fieldset>
-        <legend>Map Size</legend>
-        <input class="inline" type="radio" name="size" id="small" value="small" />
-        <label class="inline" for="small">Small</label>
-        <input class="inline" type="radio" name="size" id="medium" value="medium" />
-        <label class="inline" for="medium">Medium</label>
-        <input class="inline" type="radio" name="size" id="large" value="large" />
-        <label class="inline" for="large">Large</label>
-      </fieldset>
-      <fieldset>
-        <legend>Type of Map</legend>
-        <input class="inline" type="radio" name="type" id="overworld" value="over-world" />
-        <label class="inline" for="overworld">over world</label>
-        <input class="inline" type="radio" name="type" id="city" value="city" />
-        <label class="inline" for="city">City</label>
-        <input class="inline" type="radio" name="type" id="house" value="house" />
-        <label class="inline" for="house">House</label>
-        <input class="inline" type="radio" name="type" id="dungeon" value="dungeon" />
-        <label class="inline" for="dungeon">Dungeon</label>
-        <input class="inline" type="radio" name="type" id="boss" value="boss" />
-        <label class="inline" for="boss">Boss</label>
-        <input class="inline" type="radio" name="type" id="travel" value="travel" />
-        <label class="inline" for="travel">Travel</label>
+      <form action="https://register-demo.freecodecamp.org" method="post">
+        <fieldset>
+          <label class="text-label" for="character-name">Character Name</label>
+          <input type="text" id="character-name" name="name" required />
+          <label class="text-label" for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </fieldset>
         <hr />
-      </fieldset>
-      <fieldset>
-        <label for="notes">Additional Notes</label>
-        <textarea name="notes" id="notes" cols="30" rows="3">Please make all trees...</textarea>
-      </fieldset>
-      <input type="submit" value="Submit" name="submit" />
+        <fieldset>
+          <legend>D&D Edition</legend>
+          <input class="inline" type="radio" name="edition" id="1e" value="1e" />
+          <label class="inline" for="1e">1E</label>
+          <input class="inline" type="radio" name="edition" id="1e" value="2e" />
+          <label class="inline" for="2e">2E</label>
+          <input class="inline" type="radio" name="edition" id="3e" value="3e" />
+          <label class="inline" for="3e">3E</label>
+          <input class="inline" type="radio" name="edition" id="4e" value="4e" />
+          <label class="inline" for="4e">4E</label>
+          <input class="inline" type="radio" name="edition" id="5e" value="5e" />
+          <label class="inline" for="5e">5E</label>
+        </fieldset>
+        <fieldset>
+          <legend>Saturation</legend>
+          <input class="inline" type="radio" name="saturation" id="black" value="black" />
+          <label class="inline" for="black">Black</label>
+          <input class="inline" type="radio" name="saturation" id="white" value="white" />
+          <label class="inline" for="white">White</label>
+        </fieldset>
+        <fieldset>
+          <legend>Map Size</legend>
+          <input class="inline" type="radio" name="size" id="small" value="small" />
+          <label class="inline" for="small">Small</label>
+          <input class="inline" type="radio" name="size" id="medium" value="medium" />
+          <label class="inline" for="medium">Medium</label>
+          <input class="inline" type="radio" name="size" id="large" value="large" />
+          <label class="inline" for="large">Large</label>
+        </fieldset>
+        <fieldset>
+          <legend>Type of Map</legend>
+          <input class="inline" type="radio" name="type" id="overworld" value="over-world" />
+          <label class="inline" for="overworld">over world</label>
+          <input class="inline" type="radio" name="type" id="city" value="city" />
+          <label class="inline" for="city">City</label>
+          <input class="inline" type="radio" name="type" id="house" value="house" />
+          <label class="inline" for="house">House</label>
+          <input class="inline" type="radio" name="type" id="dungeon" value="dungeon" />
+          <label class="inline" for="dungeon">Dungeon</label>
+          <input class="inline" type="radio" name="type" id="boss" value="boss" />
+          <label class="inline" for="boss">Boss</label>
+          <input class="inline" type="radio" name="type" id="travel" value="travel" />
+          <label class="inline" for="travel">Travel</label>
+          <hr />
+        </fieldset>
+        <fieldset>
+          <label for="notes">Additional Notes</label>
+          <textarea name="notes" id="notes" cols="30" rows="3">Please make all trees...</textarea>
+        </fieldset>
+        <input type="submit" value="Submit" name="submit" />
+      </form>
     </div>
   </body>
 </html>
